@@ -1,0 +1,30 @@
+description: registerHotel
+name: registerHotel
+priority: 8
+ignored: false
+request:
+  url: '/hotel/register'
+  method: 'POST'
+  headers:
+    Content-Type: application/json
+  body:
+    hotel:
+      address:
+        buildingName: Hotel Prince
+        city: Bangalore
+        state: Karnataka
+        streetAddress: 2nd cross, R P Nagar
+        zipCode: 123456
+      email: hotelprince@gmail.com
+      name: Hotel Prince
+      phoneNumber: 7392700832
+      rooms:
+        - beds: 2
+          costPerDay: 2500
+          roomNumber: 156
+          roomType: DOUBLE
+
+response:
+  status: 200
+#  body:
+#    message: Hotel registered successfully

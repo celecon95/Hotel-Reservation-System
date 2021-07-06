@@ -1,0 +1,20 @@
+ {
+    "address": {
+      "buildingName": "Hotel Prince",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "streetAddress": "2nd cross, R P Nagar",
+      "zipCode": 123456
+    },
+    "email": "hotelprince@gmail.com",
+    "name": "Hotel Prince",
+    "phoneNumber": 7392700832,
+    "rooms": [
+      {
+        "beds": 2,
+        "costPerDay": 2500.00,
+        "roomNumber": 156,
+        "roomType": "DOUBLE"
+      }
+    ]
+ }

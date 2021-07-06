@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: gatewayservice
+  profiles:
+    active: localtest

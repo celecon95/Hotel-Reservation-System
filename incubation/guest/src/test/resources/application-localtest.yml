@@ -1,0 +1,22 @@
+server:
+  port: 8082
+  error:
+    include-stacktrace: NEVER
+
+
+eureka:
+  client:
+    enabled: false
+
+spring:
+  config:
+    use-legacy-processing: true
+    import: ConfigServer:http://localhost:8888
+    cloud:
+      config:
+        uri: http://localhost:8888
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: guestrepo

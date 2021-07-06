@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: reservationservice
+  profiles:
+    active: localtest

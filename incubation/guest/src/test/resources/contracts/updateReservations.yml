@@ -1,0 +1,18 @@
+description: updateReservations
+name: updateReservations
+priority: 8
+ignored: false
+request:
+  url: '/guest/updateReservations'
+  method: 'POST'
+  headers:
+    Content-Type: application/json
+  body:
+    name: Jacks
+    phoneNummer: 9129232331
+    reservationNumber: 769576905
+
+response:
+  status: 200
+#  body:
+#    message: Guest registered successfully

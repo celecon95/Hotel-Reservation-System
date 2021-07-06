@@ -1,0 +1,16 @@
+management:
+  security:
+    enabled: false
+
+server:
+  port: 8888
+
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          cloneOnStart: true
+          uri: C:\Users\Chaitra_Revanna\Downloads\common-config

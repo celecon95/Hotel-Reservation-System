@@ -1,0 +1,23 @@
+description: registerGuest
+name: registerGuest
+priority: 8
+ignored: false
+request:
+  url: '/guest/register'
+  method: 'POST'
+  headers:
+    Content-Type: application/json
+  body:
+    address:
+      city: Mumbai
+      doorNo: '123'
+      state: Maharashtra
+      streetAddress: 2nd cross, HighPark Colony
+      zipCode: '1638246'
+    name: Jack
+    phoneNumber: '9129232331'
+
+response:
+  status: 200
+#  body:
+#    message: Guest registered successfully

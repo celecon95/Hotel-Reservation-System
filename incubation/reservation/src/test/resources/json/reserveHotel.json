@@ -1,0 +1,20 @@
+{
+  "guestDetails": {
+    "guestName": "Jack",
+    "guestNumber": 2846934947
+  },
+  "hotelDetails": {
+    "hotelName": "Hotel Prince",
+    "hotelNumber": 4687093505,
+    "roomNumber": 133,
+    "roomType": "Single"
+  },
+  "paymentDetails": {
+    "modeOfPayment": "Debit card",
+    "price": 1500
+  },
+  "reservationDate": {
+    "reservationFrom": "05-06-2021",
+    "reservationTo": "06-06-2021"
+  }
+}

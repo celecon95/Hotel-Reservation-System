@@ -1,0 +1,23 @@
+server:
+  port: 8086
+
+
+eureka:
+  client:
+    enabled: false
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    preferIpAddress: true
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: reservationrepo
+  zipkin:
+    enabled: false
